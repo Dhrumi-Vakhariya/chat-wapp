@@ -5,13 +5,14 @@ importScripts(
 );
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyAKGRssxY4OW9um6RlSbbQ1Fh_lgdWfoPs',
-  authDomain: 'chat-web-app-4ee4c.firebaseapp.com',
-  databaseURL: 'https://chat-web-app-4ee4c.firebaseio.com',
-  projectId: 'chat-web-app-4ee4c',
-  storageBucket: 'chat-web-app-4ee4c.appspot.com',
-  messagingSenderId: '167319830934',
-  appId: '1:167319830934:web:419e220f9fdcd15ea25db7',
+  apiKey: 'AIzaSyAy7FsozNwE_piB45eGmgPzQRd6myLLoO4',
+  authDomain: 'chat-wapp.firebaseapp.com',
+  databaseURL:
+    'https://chat-wapp-default-rtdb.asia-southeast1.firebasedatabase.app',
+  projectId: 'chat-wapp',
+  storageBucket: 'chat-wapp.appspot.com',
+  messagingSenderId: '1031232435056',
+  appId: '1:1031232435056:web:cbe58304d43364dc00d5b5',
 });
 
 firebase.messaging();
